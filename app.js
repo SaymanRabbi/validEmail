@@ -58,3 +58,7 @@ const Submit = () => {
     }
 
 }
+const btnClose = () => {
+    document.getElementById('toast').style.display = 'none';
+    console.log('click')
+}
